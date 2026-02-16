@@ -29,6 +29,7 @@ MLWAC introduces a **Waypoint-Angular Coordinated (WAC)** control strategy that 
 | Training pipeline | 🔜 Coming soon |
 | Deployment & inference scripts | 🔜 Coming soon |
 
+🎬 **Demo:** A navigation demo is available on [YouTube](https://www.youtube.com/watch?v=-BEgLqulFr0).
 
 ## Acknowledgements
 
