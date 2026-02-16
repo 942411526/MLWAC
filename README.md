@@ -11,7 +11,7 @@
 
 ## Overview
 
-This is the **official implementation** of **MLWAC:** a modular and low-coupling network for visual navigation in unstructured environments.
+This is the **official implementation** of MLWAC: a modular and low-coupling network for visual navigation in unstructured environments.
 
 MLWAC introduces a **Waypoint-Angular Coordinated (WAC)** control strategy that fuses geometric waypoint cues and model-predicted angular velocities, enabling robust and adaptive navigation across diverse unstructured scenarios.
 
