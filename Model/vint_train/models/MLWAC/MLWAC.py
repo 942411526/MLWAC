@@ -1,7 +1,7 @@
 """
-MLWAC — Multi-Level Waypoint-Angular Coordinated Navigation Model
+
 =================================================================
-Core model components for visual navigation in unstructured environments.
+MLWAC
 
 Modules
 -------
