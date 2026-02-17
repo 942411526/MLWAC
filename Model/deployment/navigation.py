@@ -59,15 +59,15 @@ state_size = 5
 
 def combined_controller(waypoints: np.ndarray, velocities: np.ndarray, dt: float = 1.0/3.0) -> np.ndarray:
     """
-    结合航路点和动作信息的控制器
+    WAC
     
     参数:
-        waypoints: (N, 2) 航路点序列
-        velocities: (N, 1) 角速度序列
+        waypoints: (N, 2) 
+        velocities: (N, 1) 
         dt: 时间步长
     
     返回:
-        control_commands: (N, 2) 控制命令序列
+        control_commands: (N, 2) 
     """
     N = waypoints.shape[0]
     control_commands = np.zeros((N, 2))
@@ -312,3 +312,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     main(args)
+
