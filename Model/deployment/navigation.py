@@ -63,7 +63,7 @@ def combined_controller(waypoints: np.ndarray, velocities: np.ndarray, dt: float
     
     参数:
         waypoints: (N, 2) 航路点序列
-        velocities: (N, 2) 线速度和角速度序列
+        velocities: (N, 1) 角速度序列
         dt: 时间步长
     
     返回:
@@ -310,4 +310,5 @@ if __name__ == "__main__":
     )
     
     args = parser.parse_args()
+
     main(args)
