@@ -61,7 +61,7 @@ def combined_controller(waypoints: np.ndarray, velocities: np.ndarray, dt: float
     """
     WAC
     
-    参数:
+    
         waypoints: (N, 2) 
         velocities: (N, 1) 
         dt: 
@@ -312,5 +312,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     main(args)
+
 
 
