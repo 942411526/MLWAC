@@ -19,8 +19,10 @@ MLWAC introduces a **Waypoint-Angular Coordinated (WAC)** control strategy that 
 
 ## Current Release
 
-> ⚠️ **Note:** This repository currently contains the **model code** and the **WAC controller implementation** only.  
-> Full training and deployment code will be released upon official publication of the paper. Stay tuned!
+## Current Release
+
+> ⚠️ **Note:** This repository currently contains the **model code**, the **WAC controller implementation**, and the **core deployment code**.  
+> Complete training and deployment pipelines will be added upon official publication of the paper. Stay tuned!
 
 | Component | Status |
 |---|---|
