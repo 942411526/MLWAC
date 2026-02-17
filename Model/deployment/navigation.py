@@ -280,7 +280,7 @@ if __name__ == "__main__":
 
     parser.add_argument(
         "--dir", "-d",
-        default="campus_new12",
+        default="",
         type=str,
         help="path to topomap images"
     )
@@ -304,7 +304,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--num-samples", "-n",
-        default=8,
+        default=4,
         type=int,
         help="Number of actions sampled from the exploration model"
     )
@@ -312,6 +312,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     main(args)
+
 
 
 
