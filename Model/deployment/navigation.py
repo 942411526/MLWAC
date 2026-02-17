@@ -64,9 +64,9 @@ def combined_controller(waypoints: np.ndarray, velocities: np.ndarray, dt: float
     参数:
         waypoints: (N, 2) 
         velocities: (N, 1) 
-        dt: 时间步长
+        dt: 
     
-    返回:
+    return:
         control_commands: (N, 2) 
     """
     N = waypoints.shape[0]
@@ -312,4 +312,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     main(args)
+
 
