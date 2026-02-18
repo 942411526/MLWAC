@@ -19,7 +19,7 @@ cyclic_period: 10
 plateau_patience: 3
 plateau_factor: 0.5
 seed: 0
-
+weight_decay: 0.01
 # model params
 model_type: MLWAC
 vision_encoder: MLWAC_vint
