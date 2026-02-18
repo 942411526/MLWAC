@@ -50,8 +50,8 @@ def combined_controller(
     Args:
         waypoints:  Array of shape ``(N, 2)`` containing ``(dx, dy)`` waypoint
                     offsets in the robot frame.
-        velocities: Array of shape ``(N, 2)`` containing ``(w, v)`` predicted
-                    angular and linear velocities.
+        velocities: Array of shape ``(N, 1)`` containing ``(w)`` predicted
+                    angular  velocities.
         dt:         Time-step duration in seconds (default: ``1/3`` s).
 
     Returns:
@@ -104,5 +104,6 @@ def combined_controller(
             np.clip(v, 0.0, MAX_V),
             np.clip(w, -MAX_W, MAX_W),
         ]
+
 
     return control_commands
