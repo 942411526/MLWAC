@@ -17,7 +17,7 @@ MLWAC introduces a **Waypoint-Angular Coordinated (WAC)** control strategy that 
 
 ---
 
-## Current Release
+
 
 ## Current Release
 
