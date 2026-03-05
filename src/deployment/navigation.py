@@ -194,7 +194,7 @@ def main(args: argparse.Namespace) -> None:
     while not rospy.is_shutdown():
         if len(context_queue) > model_params["context_size"] and len(state_queue) > state_size:
             
-            if model_params["model_type"] == "nomad_pre_train_disntance_with_distance":
+            if model_params["model_type"] == "MLWAC":
                 obs_images = transform_images(context_queue, model_params["image_size"], center_crop=False)
                 obs_images = torch.split(obs_images, 3, dim=1)
                 current_obs = obs_images[-1].to(device) 
@@ -312,6 +312,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     main(args)
+
 
 
 
