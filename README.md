@@ -25,7 +25,7 @@ This is the **official implementation** of MLWAC: a modular and low-coupling net
 | Component | Status |
 |---|---|
 | Model architecture  | ✅ Available |
-| WAC controller (`combined_controller`) | ✅ Available |
+| WAC controller  | ✅ Available |
 | Training pipeline | 🔜 Coming soon |
 
 
